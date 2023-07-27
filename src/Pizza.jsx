@@ -1,13 +1,15 @@
 // import React from 'react';
-import pizzaImg from './pizzas/spinaci.jpg';
+// import pizzaImg from './pizzas/spinaci.jpg';
+// import Menu from './Menu';
 
-const Pizza = () => {
-  return (
-    <div>
-      <img src={pizzaImg} alt='' />
-      <h2>Pizza Spinaci</h2>
-    </div>
-  );
-};
+// function Pizza(props) {
+//   return (
+//     <div>
+//       <img src={props.photoName} alt={props.name} />
+//       <h2>{props.name}</h2>
+//       <p>{props.ingredients}</p>
+//     </div>
+//   );
+// }
 
-export default Pizza;
+// export default Pizza;
