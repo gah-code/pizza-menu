@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import App from './App.jsx';
 import './index.css';
 
 const pizzaData = [
@@ -117,11 +116,6 @@ function Footer() {
   const isOpen = hour >= openHour && hour <= closeHour;
   console.log(isOpen);
 
-  // if (hour >= openHour && hour <= closeHour) alert("We're currently open!");
-  // else alert("Sorry we're closed");
-
-  // if (!isOpen) return <p>CLOSED</p>;
-
   return (
     <footer className='footer'>
       {isOpen ? (
@@ -133,8 +127,6 @@ function Footer() {
       )}
     </footer>
   );
-
-  // return React.createElement("footer", null, "We're currently open!");
 }
 
 function Order({ closeHour, openHour }) {
@@ -156,8 +148,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
